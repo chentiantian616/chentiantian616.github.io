@@ -2,8 +2,11 @@ body{
 	background-color:forestgreen;
 }
 *{
-	margin: 0;
 	padding: 0;
+	margin: 0;
+}
+a{text-decoration: none;
+	
 }
 ul,li{
 	list-style: none;
@@ -18,34 +21,132 @@ ul,li{
 
 #header{
 background-color:#000000;
-height: 100px;
+height: 60px;
 
 	
 }
+
+.banner {
+	/* background-color: #808080; */
+	/* display: block;
+	margin: 0 auto; */
+	/* text-align: center; */
+	
+	
+}
+.banner img{
+	display: block;
+	margin: 0 auto;
+}
 #logo{
-	/* background-color: khaki; */
+	/* background: khaki; */
 float: left;
+height: 35px;
+margin: 10px 0;
 }
 
 #nav{
-	background-color: grey;
+	background-color: cadetblue;
 }
 #nav li{
 	float: right;
-	margin-left: 30px;
-height: 100px;
-line-height: 100px;
+	/* margin-left: 30px; */
+height: 35px;
+line-height: 60px;
+/* background-color: #D8BFD8; */
 }
 #nav li a{
-	color: #fff;
+	color: #D8BFD8;
+	height: 60px;
+	width: 60px;
+	padding: 0 15px;
+	display: block;
+	/* background-color: #F0E68C; */
+	text-align: center;
+	text-decoration: none;
 }
+#nav li a:hover{
+	background-color: cadetblue;
+	
+}
+
 #logo{
 	float:left;
 }
-#main{
-background-color: darkseagreen;	
+#firsta{
+	background-color: cadetblue;
+}
+
+
+.wrap{
+	background-color: #ccc;
 	
 }
+#main{
+background-color: darkseagreen;	
+
+}
+.about{
+	background-color: #fefbeb;
+	
+	height: 300px;
+}
+.jineng{
+	background-color: #D8BFD8;
+	height: 300px;
+	width: 1400px;
+}
+.zuopin{
+	background-color: #fefbeb;
+	height: 200px;
+	width: 1400px;
+}
+.pingjia{
+	background-color: #D8BFD8;
+	height: 200px;
+	width: 1400px;
+}
+
+.w1400{
+	
+	width: 1400px;
+	
+	/* margin: 0 auto; */
+	overflow: hidden;
+	
+}
+.left img{
+	width:250px;
+	float: left;
+	margin: 5px 0;
+	
+}
+.left{float: left;
+	/* width: 700px; */
+	margin:5px 30px;
+}
+.left1{
+	float: left;
+	margin: 30px 30px;
+}
+.right{
+	float: right;
+	margin: 70px 150px;
+}
+.right1{
+	float: right;
+	margin: -200px -620px;
+	
+
 #footer{
-	background-color:thistle
+	background-color: #000000;
+	height: 100px;
+}
+#footer{
+	background-color: #5F9EA0;
+	height: 300px;
+}
+.box{
+	background-color: firebrick;
+	height: 300px;
 }
