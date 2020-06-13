@@ -20,7 +20,7 @@ ul,li{
 }
 
 #header{
-background-color:#000000;
+background-color:#c37766;
 height: 60px;
 
 	
@@ -98,12 +98,12 @@ background-color: darkseagreen;
 }
 .zuopin{
 	background-color: #fefbeb;
-	height: 200px;
+	height: 250px;
 	width: 1400px;
 }
 .pingjia{
 	background-color: #D8BFD8;
-	height: 200px;
+	height: 250px;
 	width: 1400px;
 }
 
@@ -135,18 +135,59 @@ background-color: darkseagreen;
 }
 .right1{
 	float: right;
-	margin: -200px -620px;
-	
+	margin: -200px -620px
+		
+	}
+/* 作品	 */
 
-#footer{
+.aaa img{
+	height: 150px;
+	float: left;
+	margin:0px 25px;
+}
+.ccc{
+	float: right;
+	margin: -150px 20px;
+	
+}
+.bbb{
+	
+	float: left;
+	margin: 0 400px;
+}
+
+/* #footer{
 	background-color: #000000;
 	height: 100px;
-}
+	width: 1440px;
+} */
 #footer{
-	background-color: #5F9EA0;
-	height: 300px;
+	background-color: #c37766;
+	height: 200px;
+	width: 1440px;
+	
+	
 }
 .box{
-	background-color: firebrick;
-	height: 300px;
+	/* width: 200px; */
+	
+	float: left;
+	margin: -25px 100px;
+	/* background-color: #5F9EA0; */
 }
+/* .box img{
+	width: 80px;
+} */
+ .tubiao1{
+	float: left;
+	width: 200px;
+	margin:30px 10px;
+}
+ .tubiao{
+	float: left;
+	width:200px ;
+	margin:30px 100px ;
+}
+/* 
+
+} */
